@@ -203,7 +203,7 @@
         <div id="executive" class="tab-content active">
             <h2>Executive Summary</h2>
             <div class="summary-box">
-                <p><strong>Dataset:</strong> 541,909 transactions | 406,829 valid customers | UK-dominated (90.7%)</p>
+                <p><strong>Dataset:</strong> 541,909 transactions | UK-dominated (90.7%)</p>
                 <p><strong>Key Finding:</strong> After outlier removal, 326,440 clean records ready for RFM modeling</p>
                 <p><strong>Statistical Significance:</strong> UK/bulk order dependency confirmed (Chi² p=0.000)</p>
             </div>
@@ -213,8 +213,8 @@
                     <div class="value">541,909</div>
                 </div>
                 <div class="metric-card">
-                    <h3>Valid Customers</h3>
-                    <div class="value">406,829</div>
+                    <h3>Clean Records</h3>
+                    <div class="value">326,440</div>
                 </div>
                 <div class="metric-card">
                     <h3>RFM Customers</h3>
@@ -379,9 +379,8 @@
         </div> <!-- PCA & CONCLUSIONS -->
         <div id="pca" class="tab-content">
             <h2>PCA Results &amp; Conclusions</h2>
-            <div class="finding"> <strong>Performance:</strong> <span style="font-size: 1.5em;">99.77% Variance
-                    (PC1)</span><br> <strong>Loadings:</strong> [0.012, -0.003, -1.000] Monetary dominant<br>
-                <strong>Ready for:</strong> K-means clustering on RFM-PCA space </div>
+            <div class="finding"> <strong>Dimensionality Reduction:</strong> <span style="font-size: 1.5em;">99.77% Variance
+                    (PC1) Monetary</span><br> </div>
             <h3>Next Steps</h3>
             <ol style="margin-left: 20px; line-height: 1.8;">
                 <li><strong>Marketing Strategy:</strong>In the UK: Focus on high-frequency, smaller-basket promotions </li>
